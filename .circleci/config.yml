@@ -20,6 +20,7 @@ jobs:
     steps:
       - checkout
       - show_path:
+	  name: show path
 	  command:
 	    pwd
       # Download and cache dependencies
