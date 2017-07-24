@@ -19,7 +19,9 @@ jobs:
 
     steps:
       - checkout
-
+      - show_path:
+	  command:
+	    pwd
       # Download and cache dependencies
       - restore_cache:
           keys:
